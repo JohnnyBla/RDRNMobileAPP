@@ -1,15 +1,16 @@
 {
   "expo": {
+    "owner": "majhack90",
     "name": "razorApp",
-    "slug": "razorApp",
-    "version": "1.0.0",
+    "slug": "razor-dispatch",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconrddb.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashrd.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +23,27 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/adaptive-iconrd.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "USE_BIOMETRICS",
+        "USE_FINGERPRINT",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.android.vending.BILLING"
+      ],
+      "versionCode": 7,
+      "package": "com.majhack90.razordispatch"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "801ba841-7ed4-47ea-86aa-b41fa699de4e"
+      }
     }
   }
 }
